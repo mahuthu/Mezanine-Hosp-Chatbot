@@ -1,0 +1,30 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore virtual environment directory
+venv/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+
+
+# Ignore Docker build cache and temporary files
+**/build/
+**/tmp/
+
+# Ignore environment files that might contain sensitive information
+.env
+.env.*
+
+
